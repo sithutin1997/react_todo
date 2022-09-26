@@ -10,6 +10,9 @@ class AddTodo extends Component{
         })
        
     }
+    testFunction =() => {
+        console.log("This is test for git")
+    }
     handleSubmit = (e) =>{
         e.preventDefault();
         this.props.addTodo(this.state);
